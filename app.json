@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/show",
+    "pages/logs/logs",
+    "pages/intro/intro"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "爱链",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "pink",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "创建誓言"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "查询誓言"
+      }
+    ]
+  }
+}

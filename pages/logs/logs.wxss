@@ -1,0 +1,14 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+ page { 
+display: block;
+ min-height: 100%; 
+ background-image: url(https://s1.ax1x.com/2018/06/18/CxLA2V.png);
+ background-size:110%;
+ }

@@ -1,0 +1,20 @@
+<!--index.wxml-->
+  <form bindsubmit="bindFormSubmit">
+<view class='inputMoudle'>
+   <textarea  placeholder='誓言正文' maxlength='200' name='oathInput' auto-focus='true'></textarea>
+  </view>
+
+  <view class='word'>
+<image class='wordimg' src='https://s1.ax1x.com/2018/06/26/PPmH9H.png'></image>
+</view>
+
+ <button class='circle' bindtap='add_oath' form-type='submit' ><text class='add'>+</text></button> 
+  </form>
+
+ <!-- <view class='introWord'>  -->
+<checkbox-group class='intro' bindchange="listenCheckboxChange" style="transform:scale(0.8)">
+    <label style="display: flex;" >     
+    <checkbox value="ture"/>点击表示已阅读并同意</label>
+</checkbox-group>
+<text class='serlist' bindtap='gotoser'>《誓言服务条款》</text>
+ <!-- </view>  -->
